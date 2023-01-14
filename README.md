@@ -63,15 +63,15 @@ Steps :
 
   Data Preparation and Preprocessing
   
-  Decision Tree Classifier: With Three Leaf Nodes Condition
+  Decision Tree Classifier: With Three Leaf Nodes Condition - 94.6% accuracy
   
-  Decision Tree Classifier: Default
+  Decision Tree Classifier: Default - 99.1% accuracy
   
-  Random Forest Classifier: Default
+  Random Forest Classifier: Default - 99.0% accuracy
   
-  Random Forest Classifier - with feature selection
+  Random Forest Classifier - with feature selection - 99.2% accuracy
   
-  Weighted Random Forest Classifier - with feature selection
+  Weighted Random Forest Classifier - with feature selection - 99.3% accuracy
 
 
 Approach 2: Using review text from the critics dataset (rotten_tomatoes_critic_reviews_50k.csv)
