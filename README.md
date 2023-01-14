@@ -78,9 +78,9 @@ Approach 2: Using review text from the critics dataset (rotten_tomatoes_critic_r
 -----------------------------
 Steps :
 
-  Predicting 'review_type' using 'review_content' feature and CountVectorizer tool, CountVectorizer is used to transform a 'review_content' into a vector on the basis of the frequency (count) of each word that occurs in the entire text
+  Predicted 'review_type' using 'review_content' feature and CountVectorizer tool, CountVectorizer is used to transform a 'review_content' into a vector on the basis of the frequency (count) of each word that occurs in the entire text
   
-  Predict 'review_type' for movies in train data : 
+  Predicted 'review_type' for movies in train data : 
     Random Forest Classifier: Default, 
     Weighted Random Forest Classifier  
   
