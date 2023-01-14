@@ -1,4 +1,4 @@
-Movies Rating Prediction - Rotten Tomatoes
+Movies Rating Prediction - Rotten Tomatoes - Using Variations in Decision Tree, Random Forest and CountVectorizer
 -----------------------------
 
 
