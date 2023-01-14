@@ -72,12 +72,13 @@ Approach 2: Using review text from the critics dataset (rotten_tomatoes_critic_r
 -----------------------------
 Steps :
   Predicting 'review_type' using 'review_content' feature and CountVectorizer tool
+  
   CountVectorizer is used to transform a 'review_content' into a vector on the basis of the frequency (count) of each word that occurs in the entire text
+  
   Predict 'review_type' for movies in train data : 
     Random Forest Classifier: Default 
     Weighted Random Forest Classifier  
+  
   Movie Status Prediction : 
     Using predicted 'review_type', estimated 'Positive Review Percent'
     Based on analysis of histogram bins for 'Positive Review Percent' Vs 'Count', set threshold values of 'Positive Review Percent' for labelling movies with status as 'Rotten', 'Fresh', or 'Certified-Fresh'   
-
-
