@@ -17,39 +17,39 @@ rotten_tomatoes_critic_reviews_50k.csv - contains 50.000 individual reviews by R
 
 rotten_tomatoes_movies.csv
 -----------------------------
-rotten_tomatoes_link - movie ID
-movie_title - title of the movie as displayed on the Rotten Tomatoes website
-movie_info - brief description of the movie
-critics_consensus - comment from Rotten Tomatoes
-content_rating - category based on the movie suitability for audience
-genres - movie genres separated by commes, if multiple
-directors - name of director(s)
-authors - name of author(s)
-actors - name of actors
-original_release_date - date in which the movie has been released in theatres, in YYY-MM-DD format
-streaming_release_date - date in which the movie has been released on streaming platforms, in YYY-MM-DD format
-runtime - duration of the movie in minutes
-production_company - name of a studio/company that produced the movie
-tomatometer_status - a label assgined by Rotten Tomatoes: "Fresh", "Certified-Fresh" or "Rotten"; this is the target variables in this challenge
-tomatometer_rating - percentage of positive critic ratings
-tomatometer_count - critic ratings counted for the calculation of the tomatomer status
-audience_status - a label assgined based on user ratings: "Spilled" or "Upright"
-audience_rating - percentage of positive user ratings
-audience_count - user ratings counted for the calculation of the audience status
-tomatometer_top_critics_count - number of ratings by top critics
-tomatometer_fresh_critics_count - number of critic ratings labeled "Fresh"
+rotten_tomatoes_link - movie ID,
+movie_title - title of the movie as displayed on the Rotten Tomatoes website,
+movie_info - brief description of the movie,
+critics_consensus - comment from Rotten Tomatoes,
+content_rating - category based on the movie suitability for audience,
+genres - movie genres separated by commes, if multiple,
+directors - name of director(s),
+authors - name of author(s),
+actors - name of actors,
+original_release_date - date in which the movie has been released in theatres, in YYY-MM-DD format,
+streaming_release_date - date in which the movie has been released on streaming platforms, in YYY-MM-DD format,
+runtime - duration of the movie in minutes,
+production_company - name of a studio/company that produced the movie,
+tomatometer_status - a label assgined by Rotten Tomatoes: "Fresh", "Certified-Fresh" or "Rotten"; this is the target variables in this challenge, 
+tomatometer_rating - percentage of positive critic ratings, 
+tomatometer_count - critic ratings counted for the calculation of the tomatomer status, 
+audience_status - a label assgined based on user ratings: "Spilled" or "Upright",
+audience_rating - percentage of positive user ratings,
+audience_count - user ratings counted for the calculation of the audience status,
+tomatometer_top_critics_count - number of ratings by top critics,
+tomatometer_fresh_critics_count - number of critic ratings labeled "Fresh",
 tomatometer_rotten_critics_count - - number of critic ratings labeled "Rotten"
 
 
 rotten_tomatoes_critic_reviews_50k.csv
 -----------------------------
-rotten_tomatoes_link - movie ID
-critic_name - name of critic who rated the movie
-top_critic - boolean value that clarifies whether the critic is a top critic or not
-publisher_name - name of the publisher for which the critic works
-review_type - was the review labeled "Fresh" or "Rotten"?
-review_score - review score provided by the critic
-review_date - date of the review in YYYY-MM-DD format
+rotten_tomatoes_link - movie ID,
+critic_name - name of critic who rated the movie,
+top_critic - boolean value that clarifies whether the critic is a top critic or not,
+publisher_name - name of the publisher for which the critic works,
+review_type - was the review labeled "Fresh" or "Rotten"?,
+review_score - review score provided by the critic,
+review_date - date of the review in YYYY-MM-DD format,
 review_content - text of the review
 
 
@@ -81,5 +81,5 @@ Steps :
     Weighted Random Forest Classifier  
   
   Movie Status Prediction : 
-    Using predicted 'review_type', estimated 'Positive Review Percent'
-    Based on analysis of histogram bins for 'Positive Review Percent' Vs 'Count', set threshold values of 'Positive Review Percent' for labelling movies with status as 'Rotten', 'Fresh', or 'Certified-Fresh'   
+    Using predicted review_type estimated 'Positive Review Percent', 
+    based on analysis of histogram bins for 'Positive Review Percent' Vs 'Count', set threshold values of Positive Review Percent for labelling movies with status as 'Rotten', 'Fresh', or 'Certified-Fresh'   
