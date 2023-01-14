@@ -57,7 +57,7 @@ Methodology :
 -----------------------------
 Train data - 80%, Test data - 20%
 
-Approach 1: Using categorical and numerical features in the dataset (rotten_tomatoes_movies.csv)
+Approach 1: Decision Tree and Random Forest - Using categorical and numerical features in the dataset (rotten_tomatoes_movies.csv)
 -----------------------------
 Steps :
 
@@ -74,7 +74,7 @@ Steps :
   Weighted Random Forest Classifier - with feature selection - 99.3% accuracy
 
 
-Approach 2: Using review text from the critics dataset (rotten_tomatoes_critic_reviews_50k.csv)
+Approach 2: CountVectorizer - Using review text from the critics dataset (rotten_tomatoes_critic_reviews_50k.csv)
 -----------------------------
 Steps :
 
