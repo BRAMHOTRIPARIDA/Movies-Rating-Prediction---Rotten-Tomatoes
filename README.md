@@ -60,11 +60,17 @@ Train data - 80%, Test data - 20%
 Approach 1: Using categorical and numerical features in the dataset (rotten_tomatoes_movies.csv)
 -----------------------------
 Steps :
+
   Data Preparation and Preprocessing
+  
   Decision Tree Classifier: With Three Leaf Nodes Condition
+  
   Decision Tree Classifier: Default
+  
   Random Forest Classifier: Default
+  
   Random Forest Classifier - with feature selection
+  
   Weighted Random Forest Classifier - with feature selection
 
 
