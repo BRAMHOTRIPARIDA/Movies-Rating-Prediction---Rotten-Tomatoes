@@ -4,7 +4,7 @@ Movies Rating Prediction - Rotten Tomatoes - Using Variations in Decision Tree, 
 
 Objective : 
 -----------------------------
-Given large datasets from Rotten Tomatoes - a popular online review aggregator for film and television, btild a high performing classification algorithm to predict whether a particular movie on Rotten Tomatoes is labeled as 'Rotten', 'Fresh', or 'Certified-Fresh'.
+Given large datasets from Rotten Tomatoes - a popular online review aggregator for film and television, built a high performing classification algorithm to predict whether a particular movie on Rotten Tomatoes is labeled as 'Rotten', 'Fresh', or 'Certified-Fresh'.
 Built and compared multiple predictive models.
 
 
