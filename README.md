@@ -23,14 +23,8 @@ rotten_tomatoes_movies.csv
 
 rotten_tomatoes_critic_reviews_50k.csv
 -----------------------------
-rotten_tomatoes_link - movie ID,
-critic_name - name of critic who rated the movie,
-top_critic - boolean value that clarifies whether the critic is a top critic or not,
-publisher_name - name of the publisher for which the critic works,
-review_type - was the review labeled "Fresh" or "Rotten"?,
-review_score - review score provided by the critic,
-review_date - date of the review in YYYY-MM-DD format,
-review_content - text of the review
+
+![image](https://user-images.githubusercontent.com/26669836/212568437-f45807f7-c04f-40e2-bf7f-32402943625c.png)
 
 
 Methodology : 
