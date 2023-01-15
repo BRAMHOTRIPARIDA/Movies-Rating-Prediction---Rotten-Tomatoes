@@ -26,7 +26,7 @@ rotten_tomatoes_movies.csv
 rotten_tomatoes_critic_reviews_50k.csv
 -----------------------------
 
-![image](https://user-images.githubusercontent.com/26669836/212568437-f45807f7-c04f-40e2-bf7f-32402943625c.png)
+![image](https://user-images.githubusercontent.com/26669836/212568514-27f1c084-aaf8-4a18-b6d2-14c946c18246.png)
 
 
 Methodology : 
