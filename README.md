@@ -11,6 +11,7 @@ Built and compared multiple predictive models.
 Dataset : 
 -----------------------------
 There are 2 datasets
+
 rotten_tomatoes_movies.csv - contains basic information about each movie listed on Rotten Tomatoes, each row represents one movie.
 
 rotten_tomatoes_critic_reviews_50k.csv - contains 50.000 individual reviews by Rotten Tomatoes critics, each row represents one review corresponding to a movie.
