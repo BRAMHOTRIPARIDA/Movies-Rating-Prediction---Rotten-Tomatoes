@@ -10,7 +10,7 @@ Built and compared multiple predictive models.
 
 Dataset : 
 -----------------------------
-There are 2 datasets
+There are 2 datasets :
 
 rotten_tomatoes_movies.csv - contains basic information about each movie listed on Rotten Tomatoes, each row represents one movie.
 
